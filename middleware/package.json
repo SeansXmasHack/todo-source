@@ -1,5 +1,5 @@
 {
-  "name": "seantdg-project-template-backend",
+  "name": "seantdg-project-template-middleware",
   "version": "0.0.1",
   "description": "Express App to quickly start a new project",
   "main": "app.js",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/seantdg/ProjectTemplate#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
   }
 }
