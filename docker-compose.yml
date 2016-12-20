@@ -1,0 +1,15 @@
+version: '2'
+services: 
+  db:
+    image: mongo
+  middleware:
+    build: ./middleware
+    depends_on:
+      - db
+  web:
+    build: ./web
+    depends_on:
+      - middleware
+    ports:
+      - "80:80"
+

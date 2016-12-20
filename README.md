@@ -1,1 +1,1 @@
-# Project Template
+# Check out the Live Blog for more
